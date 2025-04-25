@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 3000;
 app.use(express.json()); // ✅ Parses JSON bodies
 // Sample data
 
-app.get('/keys-values', (req, res) => {
+app.post('/keys-values', (req, res) => {
 
     try {
 
